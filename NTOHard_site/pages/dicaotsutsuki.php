@@ -1,0 +1,22 @@
+<p style="text-align: center;"><span style="font-size: small;"><img src="https://cdn.discordapp.com/attachments/617436511192743937/617437563019460618/logo_back.png" alt="" width="309" height="191" /></span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><strong>Cl&atilde; Otsutsuki</strong></span></p>
+<p style="text-align: center;"><span style="font-size: small;">Hagoromo Otsutsuki est&aacute; demonstrando interesse em compartilhar parte do seu poder, qualquer shinobi que demonstrar aptid&atilde;o e lealdade poder&aacute; receber o poder do s&aacute;bio dos seis caminhos, juntamente com suas esferas da busca da verdade.</span></p>
+<p style="text-align: center;"><span style="font-size: small;">&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><strong>Requerimento</strong></span></p>
+<address style="text-align: center;"><span style="font-size: small;">Gradua&ccedil;&atilde;o : Jounin</span></address><address style="text-align: center;"><span style="font-size: small;">Level m&iacute;nimo : 80</span></address><address style="text-align: center;"><span style="font-size: small;">&nbsp;</span></address>
+<p style="text-align: center;"><span style="font-size: medium;"><strong>Recompensa</strong></span></p>
+<address style="text-align: center;"><span style="font-size: small;">+ 6 Mil Pontos de Vida.</span></address><address style="text-align: center;"><span style="font-size: small;">+ 10 % de Cura em Jutsus.</span></address><address style="text-align: center;"><span style="font-size: small;">+ Skin Mode Otsutsuki.</span></address><address style="text-align: center;"><span style="font-size: small;">&nbsp;</span></address>
+<p style="text-align: center;"><span style="font-size: small;"><strong>O primeiro passo &eacute; completar a miss&atilde;o do NPC Defender.</strong></span></p>
+<p style="text-align: center;"><span style="font-size: small;">&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-size: small;"><img src="https://media.discordapp.net/attachments/617434050512158777/617865822613798912/otsu_110.png" alt="" /></span></p>
+<p style="text-align: center;"><span style="font-size: small;"><strong>O segundo passo &eacute; derrotar os dois filhos de Hagoromo, Indra e Ashura.</strong></span></p>
+<p style="text-align: center;"><span style="font-size: small;"><img src="https://media.discordapp.net/attachments/617434050512158777/617865907070304298/org210.png" alt="" /></span></p>
+<p style="text-align: center;"><span style="font-size: small;"><strong>O terceiro passo &eacute; completar a miss&atilde;o do NPC Hagoromo [L&iacute;der].</strong></span></p>
+<p style="text-align: center;"><span style="font-size: small;"><img src="https://media.discordapp.net/attachments/617434050512158777/617866058325426403/org310.png" alt="" /></span></p>
+<p style="text-align: center;"><span style="font-size: small;">&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><img class="emoji" src="https://discordapp.com/assets/26a727a30b2342317fb0df394e399df1.svg" alt=":red_circle:" width="27" height="27" /><img class="emoji" src="https://discordapp.com/assets/26a727a30b2342317fb0df394e399df1.svg" alt=":red_circle:" width="27" height="27" /><strong>SPOILER</strong><img class="emoji" src="https://discordapp.com/assets/26a727a30b2342317fb0df394e399df1.svg" alt=":red_circle:" width="27" height="27" /><img class="emoji" src="https://discordapp.com/assets/26a727a30b2342317fb0df394e399df1.svg" alt=":red_circle:" width="27" height="27" /></span></p>
+<p style="text-align: center;"><span style="font-size: small;">No primeiro passo voc&ecirc; ter&aacute; que derrotar Moon Creature para coletar os items necess&aacute;rios para a miss&atilde;o do Defender.&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-size: small;">No segundo passo voc&ecirc; ter&aacute; que derrotar um de cada vez os filhos de hagoromo que s&atilde;o encontrados em locais diferentes.&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-size: small;">No terceiro passo voc&ecirc; ter&aacute; que derrotar Kaguya para coletar o item necess&aacute;rio para miss&atilde;o do Hagoromo L&iacute;der.&nbsp;Moon Creature e Kaguya s&atilde;o encontrados ao redor do castelo do Cl&atilde; Otsutsuki.</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
