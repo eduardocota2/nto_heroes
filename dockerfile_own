@@ -1,0 +1,64 @@
+# Use Ubuntu 14.04 as the base image
+FROM ubuntu:14.04
+
+# Set root password for MySQL
+ENV MYSQL_ROOT_PASSWORD=root123
+
+# Update package lists and install required packages
+RUN apt-get update \
+    && apt-get install -y \
+        apache2 \
+        mysql-server \
+        php5 \
+        php5-mysql \
+        php5-common \
+        php5-cli \        
+        php5-mcrypt \
+        libapache2-mod-php5 \
+        phpmyadmin \
+        unrar \
+        openssh-server \
+        liblua5.1-0-dev \
+        autoconf \
+        libboost-all-dev \
+        libgmp-dev \
+        liblua5.1-0 \
+        liblua5.1-0-dev \
+        liblua50 \
+        liblua50-dev \
+        liblualib50 \
+        liblualib50-dev \
+        lua50 \
+        lua5.1 \
+        libxml2-dev \
+        libxml++2.6-dev \
+        libmysql++-dev \
+        libsqlite0-dev \
+        libsqlite3-dev \
+        build-essential
+
+# Open ports for SSH, HTTP, and HTTPS
+EXPOSE 22 80 443 7171 7172
+
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
+# Start services (Apache, MySQL, SSH)
+CMD service apache2 start && service mysql start && service ssh start
+
+ENV MYSQL_ROOT_PASSWORD root123
+ENV MYSQL_DATABASE nto_hard_test
+
+# RUN echo "mysql -u root -p$MYSQL_ROOT_PASSWORD $MYSQL_DATABASE < /root/nto_hard_scheme.sql" > /docker-entrypoint-initdb.d/init.sh
+# RUN chmod 755 /docker-entrypoint-initdb.d/init.sh
+# RUN chmod 755 /root
+
+RUN mkdir /home/otx
+COPY ./NTOHard_server /home/otx
+WORKDIR /home/otx
+RUN chmod -R 777 /home/otx
+
+
+
+# Optionally, you can copy your own Apache configuration files to the container
+# COPY apache2.conf /etc/apache2/apache2.conf
+# COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
