@@ -144,7 +144,7 @@ var FB_ForceReload = 0;
   								<div id="submenu_latestnews" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
     								<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
     								<div id="ActiveSubmenuItemIcon_latestnews" class="ActiveSubmenuItemIcon" style="background-image: url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-    								<div id="ActiveSubmenuItemLabel_latestnews" class="SubmenuitemLabel">Inicio</div>
+    								<div id="ActiveSubmenuItemLabel_latestnews" class="SubmenuitemLabel">News</div>
     								<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
   								</div>
 							</a>
@@ -152,7 +152,7 @@ var FB_ForceReload = 0;
   								<div id="submenu_archive" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
     								<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 									<div id="ActiveSubmenuItemIcon_archive" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-									<div id="ActiveSubmenuItemLabel_archive" class="SubmenuitemLabel">Arquivo</div>
+									<div id="ActiveSubmenuItemLabel_archive" class="SubmenuitemLabel">Archives</div>
 									<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
   								</div>
 							</a>
@@ -178,7 +178,7 @@ var FB_ForceReload = 0;
 						<div id="submenu_serverinfo" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 							<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 							<div id="ActiveSubmenuItemIcon_serverinfo" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-							<div id="ActiveSubmenuItemLabel_serverinfo" class="SubmenuitemLabel">Conheça-nos </div>
+							<div id="ActiveSubmenuItemLabel_serverinfo" class="SubmenuitemLabel">About server</div>
 							<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						</div>
 					</a>
@@ -186,7 +186,7 @@ var FB_ForceReload = 0;
 						<div id="submenu_c" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 							<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 							<div id="ActiveSubmenuItemIcon_dicaupar" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-							<div id="ActiveSubmenuItemLabel_dicaupar" class="SubmenuitemLabel">Dica Upar </div>
+							<div id="ActiveSubmenuItemLabel_dicaupar" class="SubmenuitemLabel">Exp tips </div>
 							<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						</div>
 					</a>
@@ -195,7 +195,7 @@ var FB_ForceReload = 0;
 						<div id="submenu_dicagraduacao" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 							<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 							<div id="ActiveSubmenuItemIcon_dicagraduacao" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-							<div id="ActiveSubmenuItemLabel_dicagraduacao" class="SubmenuitemLabel">Graduações</div>
+							<div id="ActiveSubmenuItemLabel_dicagraduacao" class="SubmenuitemLabel">Graduations</div>
 							<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						</div>
 					</a>
@@ -212,7 +212,7 @@ var FB_ForceReload = 0;
 						<div id="submenu_dicaaprimoration" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 							<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 							<div id="ActiveSubmenuItemIcon_dicaaprimoration" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-							<div id="ActiveSubmenuItemLabel_dicaaprimoration" class="SubmenuitemLabel">Aprimoramentos</div>
+							<div id="ActiveSubmenuItemLabel_dicaaprimoration" class="SubmenuitemLabel">Upgrades</div>
 							<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						</div>
 					</a>
@@ -228,7 +228,7 @@ var FB_ForceReload = 0;
 						<div id="submenu_dicaotsutsuki" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 							<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 							<div id="ActiveSubmenuItemIcon_dicaotsutsuki" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-							<div id="ActiveSubmenuItemLabel_dicaotsutsuki" class="SubmenuitemLabel">Clã Otsutsuki </div>
+							<div id="ActiveSubmenuItemLabel_dicaotsutsuki" class="SubmenuitemLabel">Clan Otsutsuki </div>
 							<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						</div>
 					</a>
@@ -270,7 +270,7 @@ var FB_ForceReload = 0;
 					<div id="submenu_characters" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 						<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						<div id="ActiveSubmenuItemIcon_characters" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-						<div id="ActiveSubmenuItemLabel_characters" class="SubmenuitemLabel">Investigar Player</div>
+						<div id="ActiveSubmenuItemLabel_characters" class="SubmenuitemLabel">Search Character</div>
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 					</div>
 				</a>
@@ -278,7 +278,7 @@ var FB_ForceReload = 0;
 					<div id="submenu_whoisonline" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 						<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						<div id="ActiveSubmenuItemIcon_whoisonline" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-						<div id="ActiveSubmenuItemLabel_whoisonline" class="SubmenuitemLabel">Jogadores Online</div>
+						<div id="ActiveSubmenuItemLabel_whoisonline" class="SubmenuitemLabel">Online</div>
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 					</div>
 				</a>
@@ -286,7 +286,7 @@ var FB_ForceReload = 0;
 					<div id="submenu_highscores" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 						<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						<div id="ActiveSubmenuItemIcon_highscores" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-						<div id="ActiveSubmenuItemLabel_highscores" class="SubmenuitemLabel">Ranking Jogadores</div>
+						<div id="ActiveSubmenuItemLabel_highscores" class="SubmenuitemLabel">Highscores</div>
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 					</div>
 				</a>
@@ -294,7 +294,7 @@ var FB_ForceReload = 0;
 					<div id="submenu_killstatistics" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 						<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						<div id="ActiveSubmenuItemIcon_killstatistics" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-						<div id="ActiveSubmenuItemLabel_killstatistics" class="SubmenuitemLabel">Registro de Morte</div>
+						<div id="ActiveSubmenuItemLabel_killstatistics" class="SubmenuitemLabel">Last deaths</div>
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 					</div>
 				</a>
@@ -344,7 +344,7 @@ var FB_ForceReload = 0;
 					<div id="submenu_forum" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 						<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						<div id="ActiveSubmenuItemIcon_forum" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-						<div id="ActiveSubmenuItemLabel_forum" class="SubmenuitemLabel">Junte-se a nós !</div>
+						<div id="ActiveSubmenuItemLabel_forum" class="SubmenuitemLabel">Join us!</div>
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 					</div>
 				</a>
@@ -382,7 +382,7 @@ var FB_ForceReload = 0;
   					<div id="submenu_accountmanagement" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 						<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						<div id="ActiveSubmenuItemIcon_accountmanagement" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-						<div id="ActiveSubmenuItemLabel_accountmanagement" class="SubmenuitemLabel">Gerenciar Conta</div>
+						<div id="ActiveSubmenuItemLabel_accountmanagement" class="SubmenuitemLabel">Account Management</div>
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
   					</div>
 				</a>
@@ -390,7 +390,7 @@ var FB_ForceReload = 0;
   					<div id="submenu_createaccount" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
     					<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						<div id="ActiveSubmenuItemIcon_createaccount" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-						<div id="ActiveSubmenuItemLabel_createaccount" class="SubmenuitemLabel">Criar Conta</div>
+						<div id="ActiveSubmenuItemLabel_createaccount" class="SubmenuitemLabel">Create Account</div>
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
   					</div>
 				</a>
@@ -398,7 +398,7 @@ var FB_ForceReload = 0;
   					<div id="submenu_lostaccount" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 						<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						<div id="ActiveSubmenuItemIcon_lostaccount" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-						<div id="ActiveSubmenuItemLabel_lostaccount" class="SubmenuitemLabel">Recuperar Conta?</div>
+						<div id="ActiveSubmenuItemLabel_lostaccount" class="SubmenuitemLabel">Forgot password?</div>
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
   					</div>
 				</a>
@@ -432,7 +432,7 @@ var FB_ForceReload = 0;
   					<div id="submenu_tibiarules" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
 						<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 						<div id="ActiveSubmenuItemIcon_tibiarules" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
-						<div id="ActiveSubmenuItemLabel_tibiarules" class="SubmenuitemLabel">Regras do Jogo</div>
+						<div id="ActiveSubmenuItemLabel_tibiarules" class="SubmenuitemLabel">Rules</div>
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
   					</div>
 				</a>
