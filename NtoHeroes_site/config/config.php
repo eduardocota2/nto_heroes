@@ -23,7 +23,7 @@ $config['pagSeguro']['databasePass'] = 'kerberosmysql8123'; // senha banco de da
 # Account Maker Config
 $config['site']['serverPath'] = "/home/nto_heroes/NtoHeroes_server/";
 $config['site']['useServerConfigCache'] = false;
-$config['site']['worlds'] = array(0 => 'Gesior ACC');
+$config['site']['worlds'] = array(0 => 'Katon');
 $towns_list[0] = array(1 => 'Konoha');
 
 $config['site']['outfit_images_url'] = '/outfit.php';

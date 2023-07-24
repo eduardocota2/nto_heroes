@@ -1,5 +1,5 @@
 <p style="text-align: center;">&nbsp;</p>
-<p><a href="https://imgbb.com/"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/cD6d7FR/logo-back.png" alt="logo-back" width="274" height="170" border="0" /></a></p>
+<p><a href="/"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/cD6d7FR/logo-back.png" alt="logo-back" width="274" height="170" border="0" /></a></p>
 <table style="width: 600px; margin-left: auto; margin-right: auto; height: 24px; border-color: #0a0a0a; border-width: 0px; border-style: solid; background-color: #0a0a0a;" border="0" cellspacing="1" cellpadding="0">
 <tbody>
 <tr>
