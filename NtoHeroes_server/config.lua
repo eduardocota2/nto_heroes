@@ -191,7 +191,7 @@ startupDatabaseOptimization = true
 	houseProtection = true
 
 -- Status server information
-ownerName = "Eros"
+ownerName = "Pan Deluxe"
 ownerEmail = "eduardocc.devs@gmail.com"
-url = "www.nto-hard.com"
+url = "www.ntoheroes.ddns.net"
 location = "Mexico"

@@ -10,8 +10,9 @@
 <table style="height: 80px; width: 601px; border-color: #050505; border-width: 2px; background-color: #65929a; border-style: solid;" border="2" align="center">
 <tbody>
 <tr>
-<td style="text-align: center;"><strong><span style="color: #ffffff;">Client NTO Hard v 1.7 Zipado</span></strong></td>
-<td style="text-align: center;"><a title="Client" href="http://nto-hard.com/client/NTOHard1_7.zip" target="_blank"><strong>DIRETO</strong></a></td>
+<td style="text-align: center;"><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="images/download/otc_logo.jpg" border="0" /></strong></td>
+<td style="text-align: center;"><strong><span style="color: #ffffff;">OtClient NtoHeroes</span></strong></td>
+<td style="text-align: center;"><a title="Client" href="https://www.mediafire.com/file/9vdhcxvo5qzhopy/Otclient.rar/file" target="_blank"><strong>Mediafire</strong></a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong><span style="color: #ffffff;">&nbsp; &nbsp;Elfbot 8.60 : NTO Hard Full Cracked</span></strong></td>
