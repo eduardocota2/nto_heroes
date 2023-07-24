@@ -10,7 +10,7 @@
 <table style="height: 80px; width: 601px; border-color: #050505; border-width: 2px; background-color: #65929a; border-style: solid;" border="2" align="center">
 <tbody>
 <tr>
-<td style="text-align: center;"><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="images/download/otc_logo.jpg" border="0" /></strong></td>
+<td style="text-align: center;"><strong><img style="display: block; margin-left: auto; margin-right: auto; width: 10%;" src="images/download/otc_logo.jpg" border="0" /></strong></td>
 <td style="text-align: center;"><strong><span style="color: #ffffff;">OtClient NtoHeroes</span></strong></td>
 <td style="text-align: center;"><a title="Client" href="https://www.mediafire.com/file/9vdhcxvo5qzhopy/Otclient.rar/file" target="_blank"><strong>Mediafire</strong></a></td>
 </tr>
