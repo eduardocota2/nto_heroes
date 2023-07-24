@@ -1,6 +1,6 @@
 local config = {
   max = 3,
-  text = "Anti MC - Limite de 3 Char Online por IP !",
+  text = "Anti MC - Limit 3 Characters online per IP!",
   group_id = 1  -- it will only kick player whit that id (1=Players, 2=tutor, 3=seniortutors, 4=Gm's, 5=Cm's and 6=God's
 }
 

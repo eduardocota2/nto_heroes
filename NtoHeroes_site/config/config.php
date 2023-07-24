@@ -91,6 +91,7 @@ $config['site']['access_admin_panel'] = 3;
 $config['site']['access_tickers'] = 3;
 $config['site']['access_admin_painel'] = 3;
 $config['site']['access_staff_painel'] = 3;
+$config['site']['access_news'] = 4;
 
 # PAGE: latestnews.php
 $config['site']['news_limit'] = 6;

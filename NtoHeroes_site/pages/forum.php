@@ -1321,6 +1321,8 @@ if($action == 'new_topic')
 				
             if(isset($sections[$section_id]))
             {
+				echo $group_id_of_acc_logged;
+				echo $group_not_blocked;
                 if($section_id == 1 && $group_id_of_acc_logged < $group_not_blocked)
                     $errors[] = 'Only moderators and admins can post on news board.';
                 $quote = (int) $_REQUEST['quote'];
