@@ -21,7 +21,7 @@ $config['pagSeguro']['databaseUser'] = 'root'; // usuario banco de dados
 $config['pagSeguro']['databasePass'] = 'root123'; // senha banco de dados﻿
 
 # Account Maker Config
-$config['site']['serverPath'] = "/root/nto_heroes/NtoHeroes_server";
+$config['site']['serverPath'] = "/home/otx";
 $config['site']['useServerConfigCache'] = false;
 $config['site']['worlds'] = array(0 => 'Gesior ACC');
 $towns_list[0] = array(1 => 'Konoha');
