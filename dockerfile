@@ -26,7 +26,7 @@ RUN apt-get update \
         build-essential
 
 # Copy the OTServer files to the container's /otserver directory
-COPY ./NTOHeroes_server /otserver
+COPY ./NtoHeroes_server /otserver
 WORKDIR /otserver
 RUN chmod -R 777 /otserver
 
