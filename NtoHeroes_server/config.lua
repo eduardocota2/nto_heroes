@@ -105,8 +105,8 @@ mapAuthor = "Eros"
 -- MySQL
 sqlType = "mysql"
 mysqlHost = "127.0.0.1"
-mysqlUser = "root"
-mysqlPass = "root123"
+mysqlUser = "nto_admin"
+mysqlPass = "kerberosmysql8123"
 mysqlDatabase = "nto_hard_test"
 mysqlPort = 3306
 mysqlSock = ""
