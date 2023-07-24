@@ -15,10 +15,10 @@ $config['pagSeguro']['urlNotification'] = 'http://www.nto-hard.com/retpagseguro.
 $config['pagSeguro']['productName'] = 'Premium Points'; // Nome do produto que irá aparecer no pagseguro
 $config['pagSeguro']['productValue'] = 1.00; // valor de cada ponto ex.: 0.50 = R$ 0,50 / 1.50 = R$ 1,50 ....
 $config['pagSeguro']['doublePoints'] = false; // se true ativa double points / se false desativa
-$config['pagSeguro']['host'] = 'localhost'; // host banco de dados
+$config['pagSeguro']['host'] = '127.0.0.1'; // host banco de dados
 $config['pagSeguro']['database'] = 'nto_hard_test'; // nome do banco de dados
-$config['pagSeguro']['databaseUser'] = 'root'; // usuario banco de dados
-$config['pagSeguro']['databasePass'] = 'root123'; // senha banco de dados﻿
+$config['pagSeguro']['databaseUser'] = 'nto_admin'; // usuario banco de dados
+$config['pagSeguro']['databasePass'] = 'kerberosmysql8123'; // senha banco de dados﻿
 
 # Account Maker Config
 $config['site']['serverPath'] = "/home/nto_heroes/NtoHeroes_server/";
