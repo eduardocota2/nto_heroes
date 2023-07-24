@@ -537,7 +537,7 @@ var FB_ForceReload = 0;
 					<div class="Corner-tr" style="background-image:url(<?PHP echo $layout_name; ?>/images/content/corner-tr.png);"></div>
 					<div class="Border_1" style="background-image:url(<?PHP echo $layout_name; ?>/images/content/border-1.png);"></div>
 					<div class="BorderTitleText" style="background-image:url(<?PHP echo $layout_name; ?>/images/content/title-background-green.png);"></div>
-    				<img id="ContentBoxHeadline" class="Title" src="./layouts/tibiarl/images/header/headline-latestnews.png" alt="Contentbox headline">
+    				<img id="ContentBoxHeadline" class="Title" src="./layouts/tibiarl/images/header/headline-latestnews.gif" alt="Contentbox headline">
     				<div class="Border_2">
       					<div class="Border_3">
         					<div class="BoxContent" style="background-image:url(<?PHP echo $layout_name; ?>/images/content/scroll.png);">
