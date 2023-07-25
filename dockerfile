@@ -38,4 +38,4 @@ EXPOSE 80
 # Replace "start_command" with the actual command to start your server
 # For example: CMD ["./your_otserver_binary", "parameters"]
 # CMD ["./theotxserver"]
-CMD ["sh restart.sh"]
+CMD ["./restart.sh"]
