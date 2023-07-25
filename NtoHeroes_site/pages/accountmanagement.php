@@ -10,7 +10,7 @@ if(!$logged)
 				<table class="Table1" cellpadding="0" cellspacing="0" >    
 					<div class="CaptionContainer" >      
 						<div class="CaptionInnerContainer" >        
-							<div class="Text" >Conta deslogada com Sucesso!</div>        
+							<div class="Text" >Logged out!</div>        
 							</div>    
 					</div>    
 					<tr>      

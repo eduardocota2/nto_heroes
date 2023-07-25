@@ -1,19 +1,19 @@
 local messages = {
-"( Discord )Ei, no discord você encontrará várias Dicas, Tutoriais e até mesmo Shinobis para te acompanhar nessa jornada ! Acesse : https://discord.gg/tN2MWVr",
+"( Discord ) Hey, on discord you will find many tips, tutorials and even shinobis to accompany you on this journey! Access: https://discord.gg/VEXpYqh8Kf",
 
-"( Loot / Dinheiro ) Já aprendeu a utilizar nosso sistema !autoloot ? Não perca tempo, a melhor forma de se fazer dinheiro é vendendo Item's Loot para NPC's Compradores.",
+"( Loot / Money ) Have you learned how to use our autoloot system? Don't waste your time, the best way to make money is by selling Loot Items to NPC Buyers.",
 
-"( Upar ) Em nosso servidor você pode upar eu personagem com inúmeras formas diferentes : Hunts, Missões, Batalhas Diárias, Kekkeis Generators, Participações PVP e outras.",
+"( Level ) On our server you can level up your character in many different ways: Hunts, Missions, Daily Battles, Kekkeis Generators, PVP Participations and others.",
 
-"( Discord )Ei, no discord você encontrará várias Dicas, Tutoriais e até mesmo Shinobis para te acompanhar nessa jornada ! Acesse : https://discord.gg/tN2MWVr",
+"( Discord ) Hey, on discord you will find many tips, tutorials and even shinobis to accompany you on this journey! Access: https://discord.gg/VEXpYqh8Kf",
 
-"( Skills ) Treine seu personagem, o Ninjutsu é responsável pelo dano de seus Jutsus, Taijutsu é responsável pela velocidade do seu ataque físico, Agilidade e Destreza são responsáveis pelo Dano do ataque físico.",
+"( Skills ) Train your character, Ninjutsu is responsible for the damage of your Jutsus, Taijutsu is responsible for the speed of your physical attack, Agility and Dexterity are responsible for the damage of the physical attack.",
 
-"( Set ) É muito importante que você esteja utilizando o Set equivalente ao seu Level, Set Nivel 1 = Level 10, Set Nivel 2 = Level 20. Busque sempre utilizar o Set do Seu level para evitar apuros em situações PVE e PVP.",
+"( Set ) It is very important that you are using the Set equivalent to your Level, Set Level 1 = Level 10, Set Level 2 = Level 20. Always try to use the Set of your level to avoid trouble in PVE and PVP situations.",
 
-"( Discord ) Tire dúvidas, Dê sugestões, Aprenda mais sobre o jogo e Faça novos amigos ! Acesse : https://discord.gg/tN2MWVr ",
+"( Discord ) Ask questions, give suggestions, learn more about the game and make new friends! Access: https://discord.gg/VEXpYqh8Kf",
 
-"( Play to Gain ) Somos um servidor clássico, valorizamos o tempo de jogo, cultivamos a dificuldade para oferecer a todos gratuitamente em forma de recompensa os melhores items, personagens exclusivos e vantagens que são encontradas em nossa Loja VIP.",
+"( Play to Gain ) We are a classic server, we value playing time, we cultivate difficulty to offer everyone free of charge in the form of rewards the best items, exclusive characters and advantages that are found in our VIP Store.",
 
 } 
 
@@ -26,7 +26,7 @@ local message = messages[(i % #messages) + 1]
 
 for _, pid in ipairs(getPlayersOnline()) do
 
-doPlayerSendTextMessage(pid, 20, "Hardinho [110]: ".. message ..". ") -- Exp , Dinheiro , Quest
+doPlayerSendTextMessage(pid, 20, "Pan Deluxe [200]: ".. message ..". ") -- Exp , Dinheiro , Quest
 
 i = i + 1
 
