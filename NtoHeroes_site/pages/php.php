@@ -34,17 +34,17 @@ showednewnews_state = "0";
 }
 }</script>';
 
-/* Inicio de conteúdo */
+/* Inicio de conteï¿½do */
 if ($action == ""){
 $main_content .='
 <table border="0" cellspacing="1" cellpadding="7" width="100%">
 <tr bgcolor="'.$config['site']['vdarkborder'].'">
-<td colspan="2"><font class="white"><b>Painel De Controle Geral</b></font></td>
+<td colspan="2"><font class="white"><b>General Control Panel</b></font></td>
 </tr>
 
 <tr bgcolor="'.$config['site']['darkborder'].'">
 	<td colspan="1"><b>Menu</b></td>
-	<td colspan="1" width="80%"><b>Informações</b></td>
+	<td colspan="1" width="80%"><b>Informaï¿½ï¿½es</b></td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
@@ -58,21 +58,21 @@ if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } e
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
 	<td align="center"><a href="index.php?subtopic=adminpanel&action=install_spells">Carregar</a></td>
-	<td>Carregar informações de magias existentes do servidor</td>
+	<td>Carregar informaï¿½ï¿½es de magias existentes do servidor</td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
 	<td align="center"><a href="index.php?subtopic=adminpanel&action=install_monsters">Carregar</a></td>
-	<td>Carregar informações de criaturas existentes do servidor</td>
+	<td>Carregar informaï¿½ï¿½es de criaturas existentes do servidor</td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
 	<td align="center"><a href="index.php?subtopic=cpanel&action=captura_dados">Exibir Info.</a></td>
-	<td>Exibir informações internas do servidor</td>
+	<td>Exibir informaï¿½ï¿½es internas do servidor</td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
@@ -84,14 +84,14 @@ $main_content .='
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
-	<td align="center"><a href="index.php?subtopic=cpanel&action=top_rep">TOP Reputação<br /><small><i>(Forum)</i></small></a></td>
+	<td align="center"><a href="index.php?subtopic=cpanel&action=top_rep">TOP Reputaï¿½ï¿½o<br /><small><i>(Forum)</i></small></a></td>
 	<td>Jogadores que dao suporte no forum system</td>
 </tr>';
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
 	<td align="center"><a href="index.php?subtopic=cpanel&action=announcements">Announcements</a></td>
-	<td>Anúncios do jogo na pagina inicial do website.</td>
+	<td>Anï¿½ncios do jogo na pagina inicial do website.</td>
 </tr>';
 
 $main_content .='</table>';
@@ -106,51 +106,51 @@ if ($action == "100/deleta_pagseguro"){ $SQL->query("DROP TABLE `pagsegurotransa
 if ($action == "deletar_sistema/woe"){ $main_content .='Sistema <b>Woe</b> sendo deletado de seu banco de dados.<br />Por favor aguarde.<meta http-equiv="refresh" content="3; index.php?subtopic=cpanel&action=100/deleta_pagseguro" />'; }
 if ($action == "deleta_woe"){ $main_content .='Sistema <b>Woe</b> sendo deletado de seu banco de dados.<br />Por favor aguarde.<meta http-equiv="refresh" content="2; index.php?subtopic=cpanel&action=100/deleta_pagseguro" />'; }
 if ($action == "100/deleta_woe"){ $SQL->query("DROP TABLE `woe`"); $main_content .='<font color="green"><b>Sistema foi removido com sucesso!</b></font>'; }
-/* Exibe informações */
+/* Exibe informaï¿½ï¿½es */
 if ($action == "informacoes_server"){
 $main_content .='
 <table border="0" cellspacing="1" cellpadding="7" width="100%">
 <tr bgcolor="'.$config['site']['vdarkborder'].'">
-<td colspan="2"><font class="white"><b>Painel De Controle Geral - Informações do Servidor</b></font></td>
+<td colspan="2"><font class="white"><b>General Control Panel - Server Information</b></font></td>
 </tr>
 
 <tr bgcolor="'.$config['site']['darkborder'].'">
 	<td colspan="1"><b>Menu</b></td>
-	<td colspan="1" width="80%"><b>Informações</b></td>
+	<td colspan="1" width="80%"><b>Informations</b></td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
-	<td><b>Diretório do Servidor</b></td>
+	<td><b>Server Directory</b></td>
 	<td>'.$config['site']['server_path'].'</td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
-	<td><b>Maximo de<br />jogadores online</b></td>
+	<td><b>Maximo de<br />Players online</b></td>
 	<td>'.$config['server']['maxPlayers'].' players</td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
-	<td><b>IP de acesso</b></td>
+	<td><b>Access IP</b></td>
 	<td>'.$config['server']['ip'].'</td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
-	<td><b>PORT de acesso</b></td>
+	<td><b>Access Port</b></td>
 	<td>'.$config['server']['statusPort'].'</td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
-	<td><b>Localização<br /> do servidor</b></td>
+	<td><b>Location<br /> of server</b></td>
 	<td>'.$config['server']['location'].'</td>
 </tr>';
 
@@ -164,26 +164,26 @@ $main_content .='
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
-	<td><b>Usuário&nbsp;'.$config['server']['sqlType'].'</b></td>
+	<td><b>User'.$config['server']['sqlType'].'</b></td>
 	<td>'.$config['server']['sqlUser'].'</td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
-	<td><b>Senha&nbsp;'.$config['server']['sqlType'].'</b></td>
+	<td><b>Password'.$config['server']['sqlType'].'</b></td>
 	<td><input type="text" value="'.$config['server']['sqlPass'].'" readonly="readonly" disabled="disabled" /></td>
 </tr>';
 
 if(!is_int($number_of_rows / 2)) { $bgcolor = $config['site']['darkborder']; } else { $bgcolor = $config['site']['lightborder']; } $number_of_rows++;
 $main_content .='
 <tr bgcolor="'.$bgcolor.'">
-	<td><b>Nome da Database</b></td>
+	<td><b>Database name</b></td>
 	<td>'.$config['server']['sqlDatabase'].'</td>
 </tr>';
  
 $main_content .='</table><br />
-<a href="index.php?subtopic=cpanel">VOLTAR</a>';
+<a href="index.php?subtopic=cpanel">Back</a>';
 }
 if ($action == "announcements"){
 $main_content .='
@@ -337,7 +337,7 @@ $main_content .='
 <td CLASS="white"><b>Aguarde ...</b></td>
 </tr>
 <tr BGCOLOR='.$config['site']['darkborder'].'>
-<td>Procurando dados necessários. Por favor aguarde.</td>
+<td>Procurando dados necessï¿½rios. Por favor aguarde.</td>
 </tr>
 </TABLE>
 <meta http-equiv="refresh" content="5; index.php?subtopic=cpanel&action=dados_sucesso" />
@@ -348,7 +348,7 @@ $main_content .='<TABLE BORDER="0" CELLSPACING="1" CELLPADDING="5" WIDTH="100%">
 <td CLASS="white"><b>Aguarde ...</b></td>
 </tr>
 <tr BGCOLOR='.$config['site']['darkborder'].'>
-<td><font color="green"><b>Dados necessários foram capturados com sucesso!</b></font><br /><small>Redirecionando ... </small></td>
+<td><font color="green"><b>Dados necessï¿½rios foram capturados com sucesso!</b></font><br /><small>Redirecionando ... </small></td>
 </tr>
 </TABLE>
 <meta http-equiv="refresh" content="3; index.php?subtopic=cpanel&action=informacoes_server" />
@@ -421,7 +421,7 @@ $main_content .='
 <td CLASS="white"><b>Sistema Instalado</b></td>
 </tr>
 <tr BGCOLOR='.$config['site']['darkborder'].'>
-<td>Sistema <b>Pagseguro Automatico</b> foi instalado com sucesso, veja se com esta ação foi removido o erro aparente na pagina <a href="index.php?subtopíc=history">Trans. History</a>. Caso não tenha efeito nenhum, re-instale novamente com esta ação.<br />
+<td>Sistema <b>Pagseguro Automatico</b> foi instalado com sucesso, veja se com esta aï¿½ï¿½o foi removido o erro aparente na pagina <a href="index.php?subtopï¿½c=history">Trans. History</a>. Caso nï¿½o tenha efeito nenhum, re-instale novamente com esta aï¿½ï¿½o.<br />
 Caso este tipo de erro persista, por favor contacte o administrador do website.
 <br />
 <br />';
@@ -493,7 +493,7 @@ $main_content .='
 <b>
 <font color="green">Todas as querys foram adicionadas com sucesso!</font>
 <br />
-<small>Você será redirecionado em 5 segundos.</small>
+<small>Vocï¿½ serï¿½ redirecionado em 5 segundos.</small>
 </b>
 <meta http-equiv="refresh" content="5; index.php?subtopic=cpanel" />
 ';}
@@ -548,7 +548,7 @@ $main_content .='
 <td CLASS="white"><b>Sistema Instalado</b></td>
 </tr>
 <tr BGCOLOR='.$config['site']['darkborder'].'>
-<td>Sistema <b>Guild War System</b> foi instalado corretamente em seu banco de dados. Por favor verifique se a pagina <a href="index.php?subtopic=wars">Guild War</a> está funcionando com perfeição sem erros. Caso tenha erros por favor re-instale este sistema da mesma forma que voce instalou da primeira vez.<br /><br />
+<td>Sistema <b>Guild War System</b> foi instalado corretamente em seu banco de dados. Por favor verifique se a pagina <a href="index.php?subtopic=wars">Guild War</a> estï¿½ funcionando com perfeiï¿½ï¿½o sem erros. Caso tenha erros por favor re-instale este sistema da mesma forma que voce instalou da primeira vez.<br /><br />
 Caso este tipo de erro persista, por favor contacte o administrador do website.
 <br />
 <br />';
@@ -608,7 +608,7 @@ $main_content .='
 <td CLASS="white"><b>Sistema Instalado</b></td>
 </tr>
 <tr BGCOLOR='.$config['site']['darkborder'].'>
-<td>Sistema <b>Gallery System</b> foi instalado corretamente em seu banco de dados. Por favor verifique se a pagina <a href="index.php?subtopic=gallery">Gallery</a> está funcionando com perfeição sem erros. Caso tenha erros por favor re-instale este sistema da mesma forma que voce instalou da primeira vez.<br /><br />
+<td>Sistema <b>Gallery System</b> foi instalado corretamente em seu banco de dados. Por favor verifique se a pagina <a href="index.php?subtopic=gallery">Gallery</a> estï¿½ funcionando com perfeiï¿½ï¿½o sem erros. Caso tenha erros por favor re-instale este sistema da mesma forma que voce instalou da primeira vez.<br /><br />
 Caso este tipo de erro persista, por favor contacte o administrador do website.
 <br />
 <br />';
@@ -660,7 +660,7 @@ $main_content .='
 </tr>
 <tr BGCOLOR='.$config['site']['darkborder'].'>
 <td>
-Jogador <b>'.$player_name.'</b> tem <b>'.$qrys[0].'</b> pontos de reputação.
+Jogador <b>'.$player_name.'</b> tem <b>'.$qrys[0].'</b> pontos de reputaï¿½ï¿½o.
 ';
 if ($qrys[0] >= 6)$main_content .='<br /><a href="index.php?subtopic=cpanel&action=promove">Promover !</a></td>
 </tr>
@@ -678,7 +678,7 @@ $main_content .='
 </tr>
 <tr BGCOLOR='.$config['site']['darkborder'].'>
 <td>
-<font style="font-size:16px; font-weight:bold;">Jogador <b>'.$player_name.'</b> foi promovido com sucesso a tutor!</font><br /><small>Para remove-lo, é preciso alterar os dados no banco de dados manualmente.</small>
+<font style="font-size:16px; font-weight:bold;">Jogador <b>'.$player_name.'</b> foi promovido com sucesso a tutor!</font><br /><small>Para remove-lo, ï¿½ preciso alterar os dados no banco de dados manualmente.</small>
 <br /><a href="index.php?subtopic=cpanel&action=top_reps">Voltar</a>
 </td>
 </tr>

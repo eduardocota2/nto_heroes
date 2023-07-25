@@ -18,7 +18,7 @@ if(!$logged)
 							<div class="InnerTableContainer" >          
 								<table style="width:100%;" >
 									<tr>
-										<td>You have logged out of your account, To view your account, you need to <a href="?subtopic=accountmanagement" >Log in</a> again.</td>
+										<td>You have logged out of your account, to view your account, you need to <a href="?subtopic=accountmanagement" >Log in</a> again.</td>
 									</tr>          
 								</table>        
 							</div>
@@ -198,12 +198,12 @@ else
 		if($account_logged->getCustomField('vip_time') > 0)
 			$account_statusOver = '
 				<span class="green">
-					<span class="BigBoldText">Conta Premium</span>
+					<span class="BigBoldText">Premium account</span>
 				</span>';
 		else
 			$account_statusOver = '
 				<span class="red">
-					<span class="BigBoldText">Conta Gratuita</span>
+					<span class="BigBoldText">Free account</span>
 				</span>';
 				
 		if($account_logged->getCustomField('vip_time') > 0)
@@ -217,7 +217,7 @@ else
 					<tbody>
 						<tr>
 							<td><img src="'.$layout_name.'/images/content/headline-bracer-left.gif"></td>
-							<td style="text-align:center;vertical-align:middle;horizontal-align:center;font-size:17px;font-weight:bold;">Bem vindo a sua Conta '.$account_logged->getRLName().'!<br></td>
+							<td style="text-align:center;vertical-align:middle;horizontal-align:center;font-size:17px;font-weight:bold;">Account management'.$account_logged->getRLName().'!<br></td>
 							<td><img src="'.$layout_name.'/images/content/headline-bracer-right.gif"></td>
 						</tr>
 					</tbody>
@@ -228,7 +228,7 @@ else
 			<div class="TableContainer">
 				<div class="CaptionContainer">
 					<div class="CaptionInnerContainer"> 
-						<div class="Text">Status da Conta</div>						
+						<div class="Text">Account status</div>						
 					</div>
 				</div>
 				<table class="Table5" cellpadding="0" cellspacing="0">
@@ -252,7 +252,7 @@ else
 																		<td width="100%" valign="middle">
 																			'.$account_statusOver.'';
 																		$main_content .= '
-																			<small><br>Seu tempo Premium expira em <font style="text-transform:capitalize;">'.date('d/m/Y, H:i:s', $account_logged->getCustomField('vip_time')).'</font></small>';
+																			<small><br>Your Premium time expires on <font style="text-transform:capitalize;">'.date('d/m/Y, H:i:s', $account_logged->getCustomField('vip_time')).'</font></small>';
 																		$main_content .= '
 																		</td>
 																		<td>
@@ -324,9 +324,9 @@ else
 											</form>
 											<div style="font-size:1px;height:4px;" ></div>
 										</div>
-										<p><b>Sua conta não está registrada!</b></p>
-										<p>Você precisa clicar aqui para registrar sua conta e receber sua chave de recuperação. Por favor, tome cuidado sua Recovery Key.</p>
-										<p>Caso tenha perdido sua chave de recuperação, você pode solicitar a nova chave de recuperação para sua conta novamente.</p>
+										<p><b>Your account is not registered!</b></p>
+										<p>You need to click here to register your account and receive your Recovery Key. Please take care of your Recovery Key.</p>
+										<p>In case you have lost your recovery key, you can request the new recovery key for your account again.</p>
 									</td>
 								<tr>
 							</table>
@@ -340,7 +340,7 @@ else
 					<div class="TableContainer">
 						<div class="CaptionContainer">
 							<div class="CaptionInnerContainer"> 
-								<div class="Text">Personagem</div>
+								<div class="Text">Characters</div>
 								</div>
 						</div>
 						<table class="Table3" cellpadding="0" cellspacing="0">
@@ -361,8 +361,8 @@ else
 																		<tbody>
 																			<tr class="LabelH">
 																				<td></td>
-																				<td style="width:40%;">Nome</td>
-																				<td style="width:120px!important;">Mundo</td>
+																				<td style="width:40%;">Name</td>
+																				<td style="width:120px!important;">World</td>
 																				<td style="width:90px!important;">Status</td>
 																				<td style="width:90px!important;">&nbsp;</td>
 																			</tr>';
@@ -570,8 +570,8 @@ else
 									<tbody>
 										<tr>
 											<td>
-												<p><b>Gerenciamento de conta</b></p>
-												<p>Esta é a página principal de gerenciamento de sua conta, aqui você terá a chave para as informações da sua conta exibidas e atualizadas, divirta-se!! </p>
+												<p><b>Account management</b></p>
+												<p>This is your main account management page, here you will have the key to your account information displayed and updated, enjoy!</p>
 											</td>
 										</tr>
 										<tr></tr>
@@ -595,9 +595,9 @@ else
 		$data1 = $dataProxima - $dataAtual;
 		$dataCerta = $data1 / 86400;
 		if($account_logged->getCustomField('vip_time') > 0)
-			$account_status = '<b><font color="#00CD00">Conta Premium, '. floor($dataCerta) .' days left</font></b>';
+			$account_status = '<b><font color="#00CD00">Premium account, '. floor($dataCerta) .' days left</font></b>';
 		else
-			$account_status = '<b><font color="red">Conta Gratuita</font></b>';
+			$account_status = '<b><font color="red">Free account</font></b>';
 		if(empty($account_reckey))
 			$account_registred = '<b><font color="red">No</font></b>';
 		else
@@ -620,8 +620,8 @@ else
 					<div class="Message" >
 					<table style="width:100%;" >
 						<td style="width:100%;text-align:center;" >
-							<nobr>[<a href="#General+Information" >Informação geral</a>]</nobr> 
-							<nobr>[<a href="#Registration" >Cadastrar Conta</a>]</nobr> 
+							<nobr>[<a href="#General+Information" >General information</a>]</nobr> 
+							<nobr>[<a href="#Registration" >Register Account</a>]</nobr> 
 						</td>
 						<td>
 							<form action="?subtopic=doacao" method="post" style="padding:0px;margin:0px;" >
@@ -665,7 +665,7 @@ else
 				<table class="Table3" cellpadding="0" cellspacing="0" >
 					<div class="CaptionContainer" >
 						<div class="CaptionInnerContainer" > 
-							<div class="Text" >Informação geral</div>
+							<div class="Text" >General information</div>
 							</div>
 					</div>
 					<tr>		
@@ -703,19 +703,19 @@ else
 															</td>
 														</tr>
 														<tr style="background-color:#505050;" >
-															<td class="LabelV" >Criado:</td>
+															<td class="LabelV" >Created:</td>
 																<td>'.date("M d Y, G:i:s", $account_created).'</td>
 														</tr>
 														<tr style="background-color:#505050;" >
-															<td class="LabelV" >Último login:</td>
+															<td class="LabelV" >Last login:</td>
 															<td>'.date("M d Y, G:i:s", time()).'</td>
 														</tr>
 														<tr style="background-color:#505050;" >
-															<td class="LabelV" >Status da Conta:</td>
+															<td class="LabelV" >Account status:</td>
 															<td>'.$account_status;
 															if($account_logged->getCustomField('vip_time') <= time()){
 																
-																$main_content .= '<br/><font style="font-size:8pt">(Seu tempo Premium expira em ' .date('d/m/Y, H:i:s', $account_logged->getCustomField('vip_time')). ')</font>';
+																$main_content .= '<br/><font style="font-size:8pt">(Your Premium time expires on ' .date('d/m/Y, H:i:s', $account_logged->getCustomField('vip_time')). ')</font>';
 															}else{
 																$main_content .= '<br/><font style="font-size:8pt">(VIP time expires at ' .date('d/m/Y, H:i:s', $account_logged->getCustomField('vip_time')). ')</font>';
 															}
@@ -837,7 +837,7 @@ else
 				<table class="Table5" cellpadding="0" cellspacing="0" >    
 					<div class="CaptionContainer" >      
 						<div class="CaptionInnerContainer" >
-							<div class="Text" >Cadastrar Conta</div>
+							<div class="Text" >Register account</div>
 							</div>    
 					</div>    
 					<tr>      
@@ -856,11 +856,11 @@ else
 															<td>
 																<table style="width:100%;">
 																	<tr>
-																		<td class="LabelV" >Nome Real:</td>
+																		<td class="LabelV" >Real name:</td>
 																		<td style="width:90%;" >'.$account_rlname.'</td>
 																	</tr>
 																	<tr>
-																		<td class="LabelV" >Cidade:</td>
+																		<td class="LabelV" >City:</td>
 																		<td style="width:90%;" >'.$account_location.'</td>
 																	</tr>
 																</table>
@@ -1102,12 +1102,12 @@ else
 			<td>     
 			<div class="InnerTableContainer" > 
 			<table style="width:100%;" >
-			<tr><td class="LabelV" >Nome Real:</td><td style="width:90%;" >
+			<tr><td class="LabelV" >Real name:</td><td style="width:90%;" >
 			<input name="info_rlname" value="'.$account_rlname.'" size="30" maxlength="50" >
 			</td>
 			</tr>
 			<tr>
-			<td class="LabelV" >Cidade:</td>
+			<td class="LabelV" >City:</td>
 			<td><input name="info_location" value="'.$account_location.'" size="30" maxlength="50" ></td></tr>
 			</table>
 			</div>

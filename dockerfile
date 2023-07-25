@@ -37,4 +37,5 @@ EXPOSE 80
 # Define the entry point command to start your OTServer
 # Replace "start_command" with the actual command to start your server
 # For example: CMD ["./your_otserver_binary", "parameters"]
-CMD ["./theotxserver"]
+# CMD ["./theotxserver"]
+CMD ["sh restart.sh"]
