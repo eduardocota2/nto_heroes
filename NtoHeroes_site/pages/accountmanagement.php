@@ -18,7 +18,7 @@ if(!$logged)
 							<div class="InnerTableContainer" >          
 								<table style="width:100%;" >
 									<tr>
-										<td>Você saiu da sua conta, Para visualizar sua conta, você precisa <a href="?subtopic=accountmanagement" >Logar Conta</a> Novamente.</td>
+										<td>You have logged out of your account, To view your account, you need to <a href="?subtopic=accountmanagement" >Log in</a> again.</td>
 									</tr>          
 								</table>        
 							</div>
@@ -28,8 +28,8 @@ if(!$logged)
 			</div>';
 	else
 	{
-		$passB = '<span>Senha:</span>';
-		$logB = '<span>Nome da conta:</span>';
+		$passB = '<span>Password:</span>';
+		$logB = '<span>Account name:</span>';
 		if(isset($isTryingToLogin))
 		{
 			$main_content .= '
@@ -69,7 +69,7 @@ if(!$logged)
 					<table class="Table4" cellpadding="0" cellspacing="0" >
 						<div class="CaptionContainer" >
 							<div class="CaptionInnerContainer" >
-								<div class="Text" >Logar Conta</div>								
+								<div class="Text" >Account management</div>								
 							</div>
 						</div>
 						<tr>
@@ -132,13 +132,13 @@ if(!$logged)
 				</tr>
 				<br/>
 				<center>
-					<h1>Novo no '.$config['server']['serverName'].' server?</h1>
+					<h1>New on '.$config['server']['serverName'].' server?</h1>
 				</center>
 				<div class="TableContainer" >
 					<table class="Table4" cellpadding="0" cellspacing="0" >
 						<div class="CaptionContainer" >
 							<div class="CaptionInnerContainer" > 															
-								<div class="Text" >Novo Jogador</div>			
+								<div class="Text" >New player</div>			
 							</div>
 						</div>
 						<tr>
@@ -165,9 +165,9 @@ if(!$logged)
 																	<div id="LoginCreateAccountBox" >
 																		<p><b>'.$config['server']['serverName'].'...</b></p>
 																		<div style="margin-left: 10px;" >
-																			<p>... onde o jogo hardcore encontra a fantasia.</p>
-																			<p>... onde amizades duram a vida toda.</p>
-																			<p>... aventureiros unidos desde 2015!</p>
+																			<p>... where hardcore gaming meets fantasy.</p>
+																			<p>... where friendships last a lifetime.</p>
+																			<p>... adventurers united since 2015!</p>
 																		</div>
 																	</div>
 														</table>
@@ -681,7 +681,7 @@ else
 												<div class="TableContentContainer" >
 													<table class="TableContent" width="100%" >
 														<tr style="background-color:#505050;" >
-															<td class="LabelV" >Nome da conta:</td>
+															<td class="LabelV" >Account name:</td>
 															<td style="width:90%;" >
 																<div style="position:relative;width:100%;" >
 																	<span id="DisplayAccountID" >'.str_repeat('*', strlen(htmlspecialchars($account_logged->getName()))).'</span>
@@ -692,7 +692,7 @@ else
 															</td>
 														</tr>
 														<tr style="background-color:#505050;" >
-															<td class="LabelV" >Endereço de e-mail:</td>
+															<td class="LabelV" >Email address:</td>
 															<td style="width:90%;" >
 																<div style="position:relative;width:100%;" >
 																	<span id="DisplayEMail" >'.str_repeat('*', strlen(htmlspecialchars($account_email))).'</span>
