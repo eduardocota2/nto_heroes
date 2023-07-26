@@ -12,7 +12,7 @@
 <tr>
 <td style="text-align: center;"><strong><img style="display: block; margin-left: auto; margin-right: auto; width: 10%;" src="images/download/otc_logo.jpg" border="0" /></strong></td>
 <td style="text-align: center;"><strong><span style="color: #ffffff;">OtClient NtoHeroes</span></strong></td>
-<td style="text-align: center;"><a title="Client" href="https://www.mediafire.com/file/9vdhcxvo5qzhopy/Otclient.rar/file" target="_blank"><strong>Mediafire</strong></a></td>
+<td style="text-align: center;"><a title="Client" href="https://www.mediafire.com/file/lgtj2mw70wpq89s/Otclient.rar/file" target="_blank"><strong>Mediafire</strong></a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong><span style="color: #ffffff;">&nbsp; &nbsp;Elfbot 8.60 : NTO Hard Full Cracked</span></strong></td>
