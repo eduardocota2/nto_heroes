@@ -1,5 +1,5 @@
 local config = {
-message = "Teleport será fechado em ( 45 ) segundos. ",
+message = "Teleport will be closed in ( 45 ) seconds.",
 timeToRemove = 45, -- seconds
 teleportId = 1387,
 bosses = {

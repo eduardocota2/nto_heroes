@@ -33,11 +33,11 @@ if isPlayer(cid) and getPlayerLevel(cid) >= 60 and isPlayer(deathList[1]) then
 
 local item = getHeartFromNivel(cid)
 
-doItemSetAttribute(doPlayerAddItem(deathList[1],item, 1), "description", "Coração do Shinobi "..getPlayerName(cid).." assassinado no level "..getPlayerLevel(cid).." por "..getPlayerName(deathList[1])..".")
+doItemSetAttribute(doPlayerAddItem(deathList[1],item, 1), "description", "Heart of the Shinobi"..getPlayerName(cid).." murdered at level "..getPlayerLevel(cid).." by "..getPlayerName(deathList[1])..".")
 
 if getPlayerLevel(cid) >= 100 and getPlayerLevel(cid) <= 1000 then
 
-doBroadcastMessage("".. getCreatureName(deathList[1]) .. " [" .. getPlayerLevel(deathList[1]) .. "] Assassinou Lindamente o Glorioso Shinobi " .. getCreatureName(cid) .. " [" .. getPlayerLevel(cid) .. "]",18)
+doBroadcastMessage("".. getCreatureName(deathList[1]) .. " [" .. getPlayerLevel(deathList[1]) .. "] Murdered the Glorious Shinobi " .. getCreatureName(cid) .. " [" .. getPlayerLevel(cid) .. "]",18)
 
 end
 

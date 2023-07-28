@@ -3,13 +3,13 @@ local storage = 2522
 
 local message1  = [[
 
-Bem-Vindo ao NTO Hard !
+Welcome to NTO Heroes !
 
-Aqui você encontrará um genuíno entretenimento shinobi, somos um servidor
-clássico que busca valorizar o tempo de jogo e o empenho que cada jogador
-realiza ao interpretar nosso RPG.
+Here you will find a genuine shinobi entertainment, we are a server
+classic server that seeks to value the game time and the commitment that each player makes when
+realizes when interpreting our RPG.
 
-Vá com calma e divirta-se !
+Take it easy and have fun!
 
 ]]
 
@@ -17,7 +17,7 @@ if getPlayerStorageValue(cid, storage) == -1 then
 doPlayerPopupFYI(cid, message1)
 setPlayerStorageValue(cid, storage, 1)
 else
-doPlayerSendTextMessage(cid, 22, "Obrigado por voltar "..getPlayerName(cid)..", esperávamos por você, divirta-se !")
+doPlayerSendTextMessage(cid, 22, "Thank you for coming back "..getPlayerName(cid)..", have fun!")
 end
 return true
 end

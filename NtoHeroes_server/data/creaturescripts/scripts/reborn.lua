@@ -20,15 +20,15 @@ doCreatureAddHealth(cid, getCreatureMaxHealth(cid) - getCreatureHealth(cid))
 doCreatureAddMana(cid, getCreatureMaxMana(cid) - getCreatureMana(cid))
 doTeleportThing(cid, config.pos)
 if isCreature(attacker) then
-doPlayerSendTextMessage(cid, 27, "Voce foi morto por ".. getCreatureName(attacker) ..". Agora e hora de voce se recuperar!")
+doPlayerSendTextMessage(cid, 27, "You were killed by ".. getCreatureName(attacker) ..". Now it's time for you to recover!")
 end
 if isPlayer(attacker) and isCreature(cid) then
-doPlayerSendTextMessage(attacker, 27, "Voce matou ".. getCreatureName(cid) .."!")
+doPlayerSendTextMessage(attacker, 27, "You killed ".. getCreatureName(cid) .."!")
 end
 for i = 1,config.tempo  do
 addEvent(function()
 if isCreature(cid) then
-doPlayerSendTextMessage(cid,25,"Voce voltara em " .. config.tempo -i +1 .. " secundo(s)")
+doPlayerSendTextMessage(cid,25,"You will return in " .. config.tempo -i +1 .. " second(s)")
 end
 end, 1000*i)
 end

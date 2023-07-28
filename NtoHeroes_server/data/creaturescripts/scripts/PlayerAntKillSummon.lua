@@ -1,6 +1,6 @@
 function onCombat(cid, target)
 if cid == getCreatureMaster(target) then
-doPlayerSendCancel(cid, "Voce nao pode matar seu summon.")
+doPlayerSendCancel(cid, "You cannot kill your summon.")
 return false
 end
 return true

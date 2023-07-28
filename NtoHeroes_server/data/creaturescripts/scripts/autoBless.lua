@@ -6,13 +6,13 @@ function onLogin(cid)
 			for b=1, 5 do
 				doPlayerAddBlessing(cid, b)
 			end
-			doCreatureSay(cid, 'Você recebeu a Bless da Tsunade por possuir level inferior a 30!', TALKTYPE_ORANGE_1)
+			doCreatureSay(cid, 'You received Tsunade Bless for having level lower than 30!', TALKTYPE_ORANGE_1)
 			doSendMagicEffect(getThingPosition(cid), CONST_ME_EXPLOSIONHIT)
 			end
         elseif(getPlayerBlessing(cid,1)) then
 			doCreatureSay(cid, 'Blessed By Tsunade!', TALKTYPE_ORANGE_1)
     else
-    doCreatureSay(cid, 'Você não possui Bless da Tsunade !', TALKTYPE_ORANGE_1)
+    doCreatureSay(cid, 'You dont have Tsunade Bless!', TALKTYPE_ORANGE_1)
     end
     return true
 end

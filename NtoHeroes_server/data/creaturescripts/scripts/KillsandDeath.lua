@@ -10,7 +10,7 @@ end
 return d 
 end
 if isPlayer(thing.uid) then
-doPlayerSetSpecialDescription(thing.uid, "\n"..(getPlayerSex(thing.uid) == 0 and "Ela" or "Ele").." Assassinou: ["..getDeathsAndKills(thing.uid, "kill").."] Players.\n"..(getPlayerSex(thing.uid) == 0 and "Ela" or "Ele").." Morreu: ["..getDeathsAndKills(thing.uid, "death").."] Vezes")
+doPlayerSetSpecialDescription(thing.uid, "\n"..(getPlayerSex(thing.uid) == 0 and "She" or "He").." Murdered: ["..getDeathsAndKills(thing.uid, "kill").."] Players.\n"..(getPlayerSex(thing.uid) == 0 and "She" or "He").." Died: ["..getDeathsAndKills(thing.uid, "death").."] times")
 end
 return true
 end

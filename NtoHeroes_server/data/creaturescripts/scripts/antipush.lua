@@ -26,7 +26,7 @@ function onPush(cid, target)
 
    if isPlayer(target) and isPosInArray(pos, getThingPos(target)) then
 
-          doPlayerSendCancel(cid, "Você não pode empurrar este player.")
+          doPlayerSendCancel(cid, "You cannot push this player.")
 
           return false
 

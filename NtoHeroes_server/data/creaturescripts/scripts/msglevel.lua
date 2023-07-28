@@ -14,134 +14,129 @@ local stor_k = 66630
 
 local message1  = [[
 
-Parabéns ( Level 5 )     
+Congratulations ( Level 5 )     
 
-Agora você deverá iniciar  sua primeira
-missão com o NPC Hokage Naruto.
+Now you should start your first
+mission with the NPC Hokage Naruto.
 
-Você liberou um novo JUTSU de ATAQUE !
-Diga !Jutsu para verificar.
+You have released a new ATTACK JUTSU !
+Say !jutsu to check.
 
  
 ]]
 
 local message2  = [[
 
-Parabéns ( Level 10 )
+Congratulations ( Level 10 )
 
-Você liberou um novo Jutsu de Ataque 
-Diga !Jutsu para verificar.
+You have released a new Attack Jutsu 
+Say !jutsu to check.
 
 ]]
 
 local message5  = [[
 
-Parabéns ( Level 20 )
+Congratulations ( Level 20 )
 
-Você liberou um novo Jutsu de Ataque 
-Diga !Jutsu para verificar.
+You have released a new Attack Jutsu 
+Say !jutsu to check.
 
 ]]
 
 local message6  = [[
 
-Parabéns ( Level 25 )
+Congratulations ( Level 25 )
 
-Você liberou um novo Jutsu de Cura 	
-Diga !Jutsu para verificar.
+You have released a new Healing Jutsu 	
+Say !jutsu to check.
 
 ]]
 
 local message8  = [[
 
-Parabéns ( Level 30 )
+Congratulations ( Level 30 )
 
--> ATENÇÃO <-
+-> ATTENTION <-
  
-Apartir de agora a modalidade PVP está ativada, você pode ser atacado ou pode
-atacar qualquer outro jogador.
+From now on PVP mode is activated, you can be attacked or you can attack any other player.
 
-Utilize o Tsunade Amulet para prevenir o Drop em casos de morte, também pode
-optar por utilizar a Bless da Tsunade que além de prevenir o Drop também reduz
-as perdas de Skill e Experiência.
+Use Tsunade Amulet to prevent Drop in case of death, you can also choose to use Tsunade's Bless, 
+which in addition to preventing Drop also reduces the Skill and Experience losses.
 
 ]]
 
 local message3  = [[
 
-Parabéns ( Level 60 )
-Agora você tem level suficiente para
-se aliar a ORG Anbu ou Akatsuki!
+Congratulations ( Level 60 )
+You now have enough level to join with Anbu or Akatsuki!
 
-Bonus : + 10 % Extra Damage com Ninjutsu 
-Bonus : + 3.000 Pontos de Vida Extra
+Bonus : + 10 % Extra Damage with Ninjutsu 
+Bonus : + 3,000 Extra Health Points
 
 ]]
 
 local message4  = [[
 
-Parabéns ( Level 80 )
+Congratulations ( Level 80 )
 
-Agora você tem level suficiente para
-se aliar a ORG Otsutsuki !
+You now have enough level to join Otsutsuki!
 
-Bonus : + 10 % Cura Extra
-Bonus : + 6.000 Pontos de Vida Extra
+Bonus : + 10% Extra Healing
+Bonus : + 6.000 Extra Health Points
 
 ]]
 
 local message7  = [[
 
-Parabéns ( Level 110 )
+Congratulations ( Level 110 )
 
-Agora você tem level suficiente para
-se aliar a ORG Hokage !
+You now have enough level to become Hokage!
 
-Bonus : + 10.000 Pontos de Vida Extra
+Bonus : + 10.000 Extra Health Points
 
 ]]
 
 local message_g  = [[
 
-Parabéns ( Genin )
+Congratulations ( Genin )
 
-Você atingiu a quantidade de pontos de missão 
-suficientes para se graduar como Genin pegue o 
-certificado em cima da mesa do naruto e entregue 
-ao Iruka para receber sua recompensa !
+You've reached the amount of mission points 
+you need to graduate as Genin take the 
+certificate on naruto's desk and give it 
+to Iruka to receive your reward!
 
 ]]
 
 local message_c  = [[
 
-Parabéns ( Chunin )
+Congratulations ( Chunin )
 
-Você atingiu a quantidade de pontos de missão 
-suficientes para se graduar como Chunin pegue o 
-certificado em cima da mesa do naruto e entregue 
-ao Iruka para receber sua recompensa !
+You have reached the amount of mission points 
+you need to graduate as Chunin take the 
+certificate on naruto's desk and give it 
+to Iruka to receive your reward!
 
 ]]
 
 local message_j  = [[
 
-Parabéns ( Jounin )
+Congratulations ( Jounin )
 
-Você atingiu a quantidade de pontos de missão 
-suficientes para se graduar como Jounin pegue o 
-certificado em cima da mesa do naruto e entregue 
-ao Iruka para receber sua recompensa !
+You've reached the amount of mission points 
+you need to graduate as Jounin take the 
+certificate on naruto's desk and give it 
+to Iruka to receive your reward!
 
 ]]
 
 local message_k  = [[
 
-Parabéns ( Kage )
+Congratulations ( Kage )
 
-Você atingiu a quantidade de pontos de missão 
-suficientes para se graduar como Kage pegue o 
-certificado em cima da mesa do naruto e entregue 
-ao Iruka para receber sua recompensa !
+You have reached the amount of mission points 
+you need to graduate as a Kage take the 
+certificate on naruto's desk and give it 
+to Iruka to receive your reward!
 
 ]]
 

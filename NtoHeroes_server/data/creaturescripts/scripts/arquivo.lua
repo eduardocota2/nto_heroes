@@ -66,7 +66,7 @@ local function autoLoot(cid, pos)
 										if boost(cid) then
 											if aloot_boost[bag[i].itemid] then
 												doPlayerSetBalance(cid,getPlayerBalance(cid) + aloot_boost[bag[i].itemid])
-												str = str.." 1 "..getItemNameById(bag[i].itemid).." ("..aloot_boost[bag[i].itemid].."gp no banco) +"
+												str = str.." 1 "..getItemNameById(bag[i].itemid).." ("..aloot_boost[bag[i].itemid].."gp in bank) +"
 											else
 												doPlayerAddItem(cid, bag[i].itemid, 1)
 												str = str.." 1 "..getItemNameById(bag[i].itemid).." +"
@@ -91,7 +91,7 @@ local function autoLoot(cid, pos)
 						if boost(cid) then
 							if aloot_boost[info.itemid] then
 								doPlayerSetBalance(cid,getPlayerBalance(cid) + aloot_boost[info.itemid])
-								str = str.." 1 "..getItemNameById(info.itemid).." ("..aloot_boost[info.itemid].."gps no banco) +"
+								str = str.." 1 "..getItemNameById(info.itemid).." ("..aloot_boost[info.itemid].."gps in bank) +"
 							else
 								doPlayerAddItem(cid, info.itemid, 1)
 								str = str.." 1 "..getItemNameById(info.itemid).." +"
@@ -181,15 +181,15 @@ local function sendMsg(cid)
 	if countTable(tab) >= 1 then
 		if tab[1] then
 			if tab[2] and tab[2] > 0 then
-				doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "[Auto Loot System] Coletados: ".. tab[1] .." ".. tab[2] .." gold coins.")
+				doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "[Auto Loot System] Collected: ".. tab[1] .." ".. tab[2] .." gold coins.")
 			else
 				if type(tab[1]) == "string" and string.len(tab[1]) > 1 then
-					doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "[Auto Loot System] Coletados: "..tab[1])
+					doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "[Auto Loot System] Collected: "..tab[1])
 				end
 			end
 		elseif not tab[1] then
 			if tab[2] then
-				doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "[Auto Loot System] Coletados: "..tab[2].." gold coins.")
+				doPlayerSendTextMessage(cid, MESSAGE_EVENT_DEFAULT, "[Auto Loot System] Collected: "..tab[2].." gold coins.")
 			end
 		end
 	end
