@@ -7881,13 +7881,13 @@
 	<spawn centerx="1060" centery="1090" centerz="7" radius="1">
 		<monster name="Puppet" x="0" y="0" z="7" spawntime="45" />
 	</spawn>
-	<spawn centerx="1066" centery="1090" centerz="7" radius="1">
+	<spawn centerx="1065" centery="1090" centerz="7" radius="1">
 		<monster name="Puppet" x="0" y="0" z="7" spawntime="45" />
 	</spawn>
-	<spawn centerx="1072" centery="1090" centerz="7" radius="1">
+	<spawn centerx="1070" centery="1090" centerz="7" radius="1">
 		<monster name="Puppet" x="0" y="0" z="7" spawntime="45" />
 	</spawn>
-	<spawn centerx="1078" centery="1090" centerz="7" radius="1">
+	<spawn centerx="1075" centery="1090" centerz="7" radius="1">
 		<monster name="Puppet" x="0" y="0" z="7" spawntime="45" />
 	</spawn>
 	<spawn centerx="1086" centery="1090" centerz="7" radius="1">
@@ -8044,13 +8044,13 @@
 	<spawn centerx="1060" centery="1098" centerz="7" radius="1">
 		<monster name="Puppet" x="0" y="0" z="7" spawntime="45" />
 	</spawn>
-	<spawn centerx="1066" centery="1098" centerz="7" radius="1">
+	<spawn centerx="1065" centery="1098" centerz="7" radius="1">
 		<monster name="Puppet" x="0" y="0" z="7" spawntime="45" />
 	</spawn>
-	<spawn centerx="1072" centery="1098" centerz="7" radius="1">
+	<spawn centerx="1070" centery="1098" centerz="7" radius="1">
 		<monster name="Puppet" x="0" y="0" z="7" spawntime="45" />
 	</spawn>
-	<spawn centerx="1078" centery="1098" centerz="7" radius="1">
+	<spawn centerx="1075" centery="1098" centerz="7" radius="1">
 		<monster name="Puppet" x="0" y="0" z="7" spawntime="45" />
 	</spawn>
 	<spawn centerx="1086" centery="1098" centerz="7" radius="1">
