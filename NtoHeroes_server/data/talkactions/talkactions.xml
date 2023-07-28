@@ -77,7 +77,7 @@
 
 	<!-- Players -->
 	<talkaction words="!frags;/frags" event="script" value="frags.lua"/>
-	<talkaction words="/playersonline" event="script" value="online.lua"/>
+	<talkaction words="!online" event="script" value="online.lua"/>
 	<talkaction words="!uptime;/uptime" event="script" value="uptime.lua"/>
 	<talkaction words="!pvp;/pvp" event="script" value="pvp.lua"/>
 	<talkaction words="!q;/q" event="script" value="money.lua"/>

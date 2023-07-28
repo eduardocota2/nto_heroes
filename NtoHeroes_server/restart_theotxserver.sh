@@ -1,8 +1,8 @@
 #!/bin/bash
 while true; do
-  ./theotxserver2 > data/logs/output.log &
+  ./theotxserver3 > data/logs/output.log &
   PID=$!
-  echo $PID > theotxserver2.pid
+  echo $PID > theotxserver3.pid
   wait $PID
   sleep 5
 done

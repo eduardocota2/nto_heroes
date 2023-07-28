@@ -1,6 +1,6 @@
-local storages = {8205} -- storages que serão verificadas
+local storages = {8205} -- storages que serï¿½o verificadas
 
 function onStepIn(cid, item, position, fromPosition)
-		exhaustion.set(cid, storages, 5)
+		exhaustion.set(cid, storages, 1)
 		doCreatureSay(cid, "Hupp!", TALKTYPE_MONSTER)
 end
