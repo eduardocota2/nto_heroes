@@ -28,23 +28,23 @@
 		
 		 <vocation id="2" name="Sasuke" description="a Sasuke" needpremium="0" gaincap="50" gainhp="100" gainmana="100" gainhpticks="2" gainhpamount="150" gainmanaticks="2" gainmanaamount="150" manamultiplier="1.1" attackspeed="2400" soulmax="100" gainsoulticks="120" fromvoc="2">
                 <formula meleeDamage="1.0" distDamage="1.5" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magdefense="1.0" armor="2.0"/>
-                <skill fist="2.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+                <skill fist="5.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
         </vocation>
 		<vocation id="2100" name="Sasuke Anbu" description="a Sasuke Anbu" needpremium="0" gaincap="50" gain-="100" gainmana="100" gainhpticks="2" gainhpamount="150" gainmanaticks="2" gainmanaamount="150" manamultiplier="1.1" attackspeed="2400" soulmax="100" gainsoulticks="120" fromvoc="2100">
                 <formula meleeDamage="1.0" distDamage="1.5" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magdefense="1.0" armor="2.0"/>
-                <skill fist="2.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+                <skill fist="5.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
         </vocation>
 		<vocation id="2200" name="Sasuke Akatsuki" description="a Sasuke Akatsuki" needpremium="0" gaincap="50" gainhp="100" gainmana="100" gainhpticks="2" gainhpamount="150" gainmanaticks="2" gainmanaamount="150" manamultiplier="1.1" attackspeed="2400" soulmax="100" gainsoulticks="120" fromvoc="2200">
                 <formula meleeDamage="1.0" distDamage="1.5" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magdefense="1.0" armor="2.0"/>
-                <skill fist="2.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+                <skill fist="5.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
         </vocation>
 		<vocation id="2300" name="Sasuke Otsutsuki" description="a Sasuke Otsutsuki" needpremium="0" gaincap="50" gainhp="100" gainmana="100" gainhpticks="2" gainhpamount="150" gainmanaticks="2" gainmanaamount="150" manamultiplier="1.1" attackspeed="2400" soulmax="100" gainsoulticks="120" fromvoc="2300">
                 <formula meleeDamage="1.0" distDamage="1.5" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magdefense="1.0" armor="2.0"/>
-                <skill fist="2.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+                <skill fist="5.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
         </vocation>
 		<vocation id="2400" name="Sasuke Hokage" description="a Sasuke Hokage" needpremium="0" gaincap="50" gainhp="100" gainmana="100" gainhpticks="2" gainhpamount="150" gainmanaticks="2" gainmanaamount="150" manamultiplier="1.1" attackspeed="2400" soulmax="100" gainsoulticks="120" fromvoc="2400">
                 <formula meleeDamage="1.0" distDamage="1.5" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.5" magdefense="1.0" armor="2.0"/>
-                <skill fist="2.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+                <skill fist="5.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
         </vocation>
 		
 		<vocation id="3" name="Sakura" description="a Sakura" needpremium="0" gaincap="50" gainhp="100" gainmana="100" gainhpticks="2" gainhpamount="150" gainmanaticks="2" gainmanaamount="150" manamultiplier="1.1" attackspeed="2400" soulmax="100" gainsoulticks="120" fromvoc="3">
