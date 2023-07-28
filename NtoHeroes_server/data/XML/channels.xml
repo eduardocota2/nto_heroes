@@ -2,9 +2,12 @@
 <channels>
 	<channel id="1" name="Party"/>
 	<channel id="3" name="Staff" logged="no"/>
-	<channel id="5" name="Troca" level="1" muted="30" conditionId="3" conditionMessage="Aguarde ( 2 )dois minutos para enviar uma nova msg."/>
-	<channel id="9" name="Ajuda" level="1" logged="yes" muted="30" conditionMessage="Aguarde ( 1 )um minuto para enviar uma nova msg."/>
-	<channel id="8" name="Bate-papo" level="1"/>
+	<channel id="5" name="Advertising" level="1" muted="30" conditionId="3" conditionMessage="Wait two minutes to send a new message."/>
+	<channel id="9" name="Help" level="1" logged="yes" muted="30" conditionMessage="Wait one minute to send a new message."/>
+	<channel id="11" name="English Chat" level="1"/>
+	<channel id="12" name="Portuguese Chat" level="1"/>
+	<channel id="13" name="Spanish Chat" level="1"/>
+	<channel id="14" name="Polish Chat" level="1"/>
 	<channel id="10" name="[Cd] Jutsus" logged="yes" active="0"/>
-	<channel id="65535" name="Canal Privado"/>
+	<channel id="65535" name="Private Channel"/>
 </channels>

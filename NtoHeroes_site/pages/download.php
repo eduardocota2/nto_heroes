@@ -14,10 +14,10 @@
 <td style="text-align: center;"><strong><span style="color: #ffffff;">OtClient NtoHeroes</span></strong></td>
 <td style="text-align: center;"><a title="Client" href="https://www.mediafire.com/file/lgtj2mw70wpq89s/Otclient.rar/file" target="_blank"><strong>Mediafire</strong></a></td>
 </tr>
-<tr>
+<!-- <tr>
 <td style="text-align: center;"><strong><span style="color: #ffffff;">&nbsp; &nbsp;Elfbot 8.60 : NTO Hard Full Cracked</span></strong></td>
 <td style="text-align: center;"><a title="Elfbot" href="http://bit.ly/2mzJxaE" target="_blank"><strong>DOWNLOAD</strong></a></td>
-</tr>
+</tr> -->
 </tbody>
 </table>
 <p>&nbsp;</p>
