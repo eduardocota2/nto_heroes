@@ -13,13 +13,15 @@ end
 setCombatCallback(combat, CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
 function onCastSpell(cid, var)
-	local waittime = 1 -- Tempo de exhaustion
-	local storage = 8205
+	doCombat(cid, combat, var)
+end
+-- 	local waittime = 1 -- Tempo de exhaustion
+-- 	local storage = 8205
 
-if exhaustion.check(cid, storage) then
-	return false
-end
-	exhaustion.set(cid, storage, waittime)
-	return doCombat(cid, combat, var)
-end
+-- if exhaustion.check(cid, storage) then
+-- 	return false
+-- end
+-- 	exhaustion.set(cid, storage, waittime)
+-- 	return doCombat(cid, combat, var)
+-- end
 

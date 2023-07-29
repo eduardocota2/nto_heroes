@@ -1887,8 +1887,8 @@ function NameStateChanged()
 					$char_to_copy->getItems()->load();
 					$char_to_copy->loadSkills();
 					
-					if($newchar_sex == "0")
-						$char_to_copy->setLookType(136);
+					// if($newchar_sex == "0")
+					// 	$char_to_copy->setLookType(136);
 					$char_to_copy->setID(null); // save as new character
 					$char_to_copy->setLastIP(0);
 					$char_to_copy->setLastLogin(0);
