@@ -8,7 +8,7 @@
 	<talkaction log="yes" group="4" access="3" words="/mute;/unmute" event="script" value="mute.lua"/>
 	<talkaction words="!jutsu" event="script" value="spells.lua"/>
 	<talkaction words="!saga" event="script" value="saga.lua"/>
-	<!-- <talkaction words="!bless" event="script" value="bless.lua"/> -->
+	<talkaction words="!bless" event="script" value="bless.lua"/>
 	<talkaction words="!anbu" event="script" value="saga anbu.lua"/>
 	<talkaction words="!akatsuki" event="script" value="saga akat.lua"/>
 	<talkaction words="!otsutsuki" event="script" value="saga otsutsuki.lua"/>
