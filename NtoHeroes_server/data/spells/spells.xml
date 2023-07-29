@@ -35,7 +35,7 @@
     </instant>
 	<instant name="For Support" words="Sense" lvl="15" mana="500" aggressive="0" params="1" exhaustion="1000" needlearn="0" event="function" value="searchPlayer">
 	</instant>
-	<instant name="For Healing" words="Regeneration" lvl="1" mana="25" prem="0" aggressive="0" exhaustion="1" needlearn="0" blockwalls="1" enabled="1" event="script" value="suporte/bigheal.lua">
+	<instant name="For Healing" words="Regeneration" lvl="1" mana="25" prem="0" aggressive="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="suporte/bigheal.lua">
 	</instant>
 	<instant name="For Healing" words="Hiper Regeneration" lvl="100" mana="500" prem="1" aggressive="0" exhaustion="1" needlearn="0" blockwalls="1" enabled="1" event="script" value="suporte/supremebigheal4.lua">
 	</instant>
