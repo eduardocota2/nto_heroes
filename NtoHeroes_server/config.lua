@@ -67,7 +67,7 @@ loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 200
-motd = "¡Bivenvenido!"
+motd = "Welcome!"
 onePlayerOnlinePerAccount = false
 allowClones = false
 serverName = "Katon"
@@ -85,7 +85,7 @@ clientVersionStr = "Only clients with protocol 8.60 allowed!"
 -- NOTE: Leave deathLosePercent as -1 if you want to use the default
 -- death penalty formula. For the old formula, set it to 10. For
 -- no skill/experience loss, set it to 0.
-deathLostPercent = 5
+deathLostPercent = 8
 
 
 -- Houses
@@ -94,8 +94,9 @@ housePriceEachSquare = 7500
 houseRentPeriod = "monthly"
 
 -- Item Usage
-timeBetweenActions = 1000
+timeBetweenActions = 200
 timeBetweenExActions = 1000
+timeBetweenCustomActions = 500
 
 -- Map
 -- NOTE: set mapName WITHOUT .otbm at the end

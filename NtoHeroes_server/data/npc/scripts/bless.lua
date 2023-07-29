@@ -16,12 +16,12 @@ end
 local talkUser = NPCHANDLER_CONVbehavior == CONVERSATION_DEFAULT and 0 or cid
 
 if(msgcontains(msg, 'bkessing') or msgcontains(msg, 'bless')) then
-selfSay('Bless ? {sim}', cid)
+selfSay('Do you want to be blessed? {yes}', cid)
 talkState[talkUser] = 1
-elseif(msgcontains(msg, 'sim') and talkState[talkUser] == 1) then
-local price = 650000
+elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 1) then
+local price = 150000
 if getPlayerMoney(cid) >= price then 
-doPlayerSendTextMessage(cid, 22, "Você acabou de receber Blessings of Tsunade.")
+doPlayerSendTextMessage(cid, 22, "You have received Blessings of Tsunade.")
 	    doPlayerAddBlessing(cid, 1)
         doPlayerAddBlessing(cid, 2)
         doPlayerAddBlessing(cid, 3)
@@ -31,7 +31,7 @@ doPlayerSendTextMessage(cid, 22, "Você acabou de receber Blessings of Tsunade.")
 		doPlayerRemoveMoney(cid, price)
 	   doSendMagicEffect(getPlayerPosition(cid), 5)
 else
-selfSay('Você precisa de 65 gold para receber a bless.', cid)
+selfSay('Sorry, you do not enough money. You need 15 gold bars to get bless.', cid)
 end
 talkState[talkUser] = 0
 
