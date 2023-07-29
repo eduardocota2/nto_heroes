@@ -6,7 +6,7 @@ local config = {
 function onLogin(cid)
 	local loss = getConfigValue('deathLostPercent')
 	if(loss ~= nil) then
-		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, loss * 10)
+		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, loss * 1)
 	end
 
 	local accountManager = getPlayerAccountManager(cid)
