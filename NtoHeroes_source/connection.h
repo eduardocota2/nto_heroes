@@ -23,10 +23,6 @@
 #include <boost/utility.hpp>
 #include <boost/enable_shared_from_this.hpp>
 
-class Protocol;
-static constexpr int32_t CONNECTION_WRITE_TIMEOUT = 30;
-static constexpr int32_t CONNECTION_READ_TIMEOUT = 30;
-
 class OutputMessage;
 typedef boost::shared_ptr<OutputMessage> OutputMessage_ptr;
 
@@ -94,6 +90,8 @@ class ConnectionManager
 class Connection : public boost::enable_shared_from_this<Connection>, boost::noncopyable
 {
 	public:
+		enum {writeTimeout = 30};
+		enum {readTimeout = 30};
 
 		enum ConnectionState_t
 		{
