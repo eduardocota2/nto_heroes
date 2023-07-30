@@ -2753,8 +2753,8 @@ void ProtocolGame::AddPlayerStats(NetworkMessage_ptr msg) //porcentagem vida e m
 	{
 		// msg->put<uint16_t>(uint16_t(player->getHealth() * 100 / player->getPlayerInfo(PLAYERINFO_MAXHEALTH)));
 		// msg->put<uint16_t>(100);
-		msg->put<uint32_t>(uint32_t(player->getHealth()));
-		msg->put<uint32_t>(uint32_t(player->getPlayerInfo(PLAYERINFO_MAXHEALTH)));
+		msg->put<uint16_t>(uint16_t(player->getHealth()));
+		msg->put<uint16_t>(uint16_t(player->getPlayerInfo(PLAYERINFO_MAXHEALTH)));
 	}
 	else
 	{
@@ -2774,8 +2774,8 @@ void ProtocolGame::AddPlayerStats(NetworkMessage_ptr msg) //porcentagem vida e m
 	{
 		// msg->put<uint16_t>(player->getPlayerInfo(PLAYERINFO_MANA) * 100 / player->getPlayerInfo(PLAYERINFO_MAXMANA));
 		// msg->put<uint16_t>(100);
-		msg->put<uint32_t>(player->getPlayerInfo(PLAYERINFO_MANA));
-		msg->put<uint32_t>(player->getPlayerInfo(PLAYERINFO_MAXMANA));
+		msg->put<uint16_t>(player->getPlayerInfo(PLAYERINFO_MANA));
+		msg->put<uint16_t>(player->getPlayerInfo(PLAYERINFO_MAXMANA));
 	}
 	else
 	{

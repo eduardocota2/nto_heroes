@@ -4656,7 +4656,7 @@
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="50" />
 		<attribute key="corpseType" value="venom" />
-		<attribute key="fluidSource" value="slime" />
+		<!-- <attribute key="fluidSource" value="slime" /> -->
 	</item>
 	<item id="2909" article="a" name="dead beholder">
 		<attribute key="containerSize" value="15" />

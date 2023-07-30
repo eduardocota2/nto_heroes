@@ -11,7 +11,7 @@
 	<creaturescript type = "push" name = "PushPlayerThere" event = "script" value = "antipush.lua"/>
 	<event type="death" name="corpse" event="script" value="corpse.lua"/>
 	<!-- <event type="kill" name="FragReward" event="script" value="exp kill.lua"/> -->
-	<event type="login" name="Anti Mc" event="script" value="antimc.lua"/>
+	<!-- <event type="login" name="Anti Mc" event="script" value="antimc.lua"/> -->
 	
 	<event type="death" name="HeartDrop" event="script" value="heart.lua"/>
 	<event type="death" name="stordeath" event="script" value="stordeath.lua"/>
