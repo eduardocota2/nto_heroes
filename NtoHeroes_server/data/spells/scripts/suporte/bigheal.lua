@@ -20,9 +20,8 @@ function onCastSpell(cid, var)
 		doSendMagicEffect(getCreaturePosition(cid), CONST_ME_POFF)
 		return false
 	end
-		exhaustion.set(cid, storage, waittime)
-		return doCombat(cid, combat, var)
-	end
+	exhaustion.set(cid, storage, waittime)
+	return doCombat(cid, combat, var)
 end
 
 
